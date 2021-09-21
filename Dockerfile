@@ -13,7 +13,7 @@ ENV TERM xterm
 RUN apt-get install -y vim less libboost-dev swig build-essential cmake git
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
-RUN pip install scikit-build matplotlib scipy numpy cython ninja
+RUN pip install scikit-build matplotlib scipy numpy cython ninja autopep8
 
 RUN git clone https://github.com/dwavesystems/dwave-preprocessing.git
 WORKDIR /dwave-preprocessing
