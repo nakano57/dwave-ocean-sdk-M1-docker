@@ -36,3 +36,4 @@ RUN echo \
     "$DEFEAULT_CLIENT_CLASS"$'\n'\
     "$DEFEAULT_SOLVER"$'\n'"\
     | dwave setup --install-all
+RUN dwave install inspector
